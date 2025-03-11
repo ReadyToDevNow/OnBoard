@@ -1,7 +1,7 @@
 <template>
-  <div class="min-h-screen bg-blue-200/60 flex flex-col justify-center items-center">
+  <div class="min-h-screen bg-gray-200 flex flex-col justify-center items-center border">
     <header class="text-center mb-8">
-      <h1 class="text-4xl font-bold text-blue-600">Bienvenue sur TodoList</h1>
+      <h1 class="text-4xl font-bold text-blue-600">OnBoard</h1>
       <p class="text-lg text-gray-600">Visualisez votre data</p>
     </header>
 
@@ -49,7 +49,7 @@ function startTodoList() {
   if (username.value.trim()) {
     // Ici, vous pouvez enregistrer le nom de l'utilisateur dans le store ou dans le localStorage
     // puis rediriger vers la page de la liste de tâches
-    router.push({ name: 'about' })
+    router.push({ name: 'hello' })
   }
 }
 </script>
