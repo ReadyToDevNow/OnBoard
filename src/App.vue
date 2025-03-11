@@ -1,10 +1,17 @@
 <script setup>
 //import HelloWorld from './components/HelloWorld.vue'
-import TheDashboard from './views/TheDashboard.vue'
+//import TheDashboard from './views/TheDashboard.vue'
+
+import { RouterView } from 'vue-router'
 </script>
 
 <template>
-  <TheDashboard />
+  <header>
+    <router-link to="/home"></router-link>
+  </header>
+  <router-view></router-view>
+
+  <!--<TheDashboard /> -->
   <!-- <header>
     <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
 
