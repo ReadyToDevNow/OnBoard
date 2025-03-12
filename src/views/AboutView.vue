@@ -1,8 +1,18 @@
-<script setup></script>
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
+  <div class="dashboard">
+    <h1>OnBoard</h1>
+    <div class="dashboard-grid">
+      <SideBar />
+    </div>
   </div>
 </template>
 
-<style></style>
+<script>
+import SideBar from '@/components/SideBar.vue'
+
+export default {
+  components: {
+    SideBar,
+  },
+}
+</script>

@@ -49,7 +49,7 @@ function startTodoList() {
   if (username.value.trim()) {
     // Ici, vous pouvez enregistrer le nom de l'utilisateur dans le store ou dans le localStorage
     // puis rediriger vers la page de la liste de tâches
-    router.push({ name: 'hello' })
+    router.push({ name: 'about' })
   }
 }
 </script>

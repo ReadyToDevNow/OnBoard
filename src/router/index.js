@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import LandingPage from '@/components/LandingPage.vue'
-import HelloWorld from '@/components/HelloWorld.vue'
+import SideBar from '@/components/SideBar.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -13,7 +13,7 @@ const router = createRouter({
     {
       path: '/Hello',
       name: 'hello',
-      component: HelloWorld,
+      component: SideBar,
     },
 
     {
