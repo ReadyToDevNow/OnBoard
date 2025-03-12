@@ -1,18 +1,18 @@
 <template>
   <div class="dashboard">
-    <h1>OnBoard</h1>
-    <div class="dashboard-grid">
-      <SideBar />
-    </div>
+    <SideBar />
+    <HeadBar />
   </div>
 </template>
 
 <script>
 import SideBar from '@/components/SideBar.vue'
+import HeadBar from '@/components/HeadBar.vue'
 
 export default {
   components: {
     SideBar,
+    HeadBar,
   },
 }
 </script>
