@@ -1,8 +1,10 @@
 <template>
-  <div class="left-72 top-16 absolute inset-0">
-    <div class="font-bold text-white text-2xl m-12 absolute inset-0">
+  <div class="left-72 top-16 absolute inset-124">
+    <!-- Créer des cards et mettre en place une grid-->
+    <div class="font-bold text-2xl m-12 absolute inset-0">
       <div>Main Content</div>
       <div>
+        <span>Hello</span>
         <canvas id="myChart"></canvas>
       </div>
     </div>
@@ -39,7 +41,7 @@ export default {
             'rgba(153, 102, 255, 1)',
             'rgba(255, 159, 64, 1)',
           ],
-          borderWidth: 1,
+          borderWidth: 5,
         },
       ],
     }
@@ -55,7 +57,7 @@ export default {
     onMounted(() => {
       const ctx = document.getElementById('myChart').getContext('2d')
       const myChart = new Chart(ctx, {
-        type: 'bar',
+        type: 'doughnut',
         data: chartData,
         options: chartOptions,
       })
