@@ -7,7 +7,8 @@
       <div>Dashboard</div>
       <router-link to="analytics">Analytics</router-link>
       <router-link to="discover">Discover</router-link>
-      <router-link to="Sales">Sales</router-link>
+      <router-link to="sales">Sales</router-link>
+      <router-link to="SmartHome">Smart Home</router-link>
     </div>
   </div>
 </template>
