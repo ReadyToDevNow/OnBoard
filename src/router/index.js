@@ -15,7 +15,6 @@ const router = createRouter({
       name: 'hello',
       component: SideBar,
     },
-
     {
       path: '/about',
       name: 'about',
@@ -23,6 +22,21 @@ const router = createRouter({
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
       component: () => import('../views/AboutView.vue'),
+    },
+    {
+      path: '/analytics',
+      name: 'analytics',
+      component: () => import('../views/AnalyticsViews.vue'),
+    },
+    {
+      path: '/discover',
+      name: 'discover',
+      component: () => import('../views/DiscoverViews.vue'),
+    },
+    {
+      path: '/sales',
+      name: 'sales',
+      component: () => import('../views/SalesViews.vue'),
     },
   ],
 })

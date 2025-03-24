@@ -5,8 +5,9 @@
     <div class="flex flex-col justify-center items-center font-bold text-white mt-4">
       <div>Accueil</div>
       <div>Dashboard</div>
-      <div>Info</div>
-      <div>Contact</div>
+      <router-link to="analytics">Analytics</router-link>
+      <router-link to="discover">Discover</router-link>
+      <router-link to="Sales">Sales</router-link>
     </div>
   </div>
 </template>
