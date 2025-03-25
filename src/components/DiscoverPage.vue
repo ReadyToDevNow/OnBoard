@@ -12,11 +12,50 @@
             <span>Developer / VueJs</span>
           </div>
         </div>
-        <div class="flex p-4 mr-8 items-center overflow-x-auto">
-          <span class="flex font-bold border">pic </span>
-          <span class="flex font-bold border">pic </span>
-          <span class="flex font-bold border">pic </span>
-          <span class="flex font-bold border">pic </span>
+        <!-- Remplacer par une boucle for pour gérer l'affichage de plusieurs photo de profils et des noms d'utilisateurs-->
+        <div class="flex flex-nowrap p-8 items-center overflow-x-scroll">
+          <div class="flex flex-col items-center">
+            <img class="h-20 w-20 mr-4" src="../assets/logo-add.png" />
+            <span>Ajouter</span>
+          </div>
+          <div class="flex flex-row">
+            <div class="flex flex-col items-center">
+              <img class="h-20 w-20 rounded-full object-cover mr-4" src="../assets/bg-temple.png" />
+              <span>Ragnar L</span>
+            </div>
+            <div class="flex flex-col items-center">
+              <img class="h-20 w-20 rounded-full object-cover mr-4" src="../assets/bg-temple.png" />
+              <span>Charlotte W</span>
+            </div>
+            <div class="flex flex-col items-center">
+              <img class="h-20 w-20 rounded-full object-cover mr-4" src="../assets/bg-temple.png" />
+              <span>Eric F</span>
+            </div>
+            <div class="flex flex-col items-center">
+              <img class="h-20 w-20 rounded-full object-cover mr-4" src="../assets/bg-temple.png" />
+              <span>Liliane G</span>
+            </div>
+            <div class="flex flex-col items-center">
+              <img class="h-20 w-20 rounded-full object-cover mr-4" src="../assets/bg-temple.png" />
+              <span>Alex J</span>
+            </div>
+            <div class="flex flex-col items-center">
+              <img class="h-20 w-20 rounded-full object-cover mr-4" src="../assets/bg-temple.png" />
+              <span>Jose N</span>
+            </div>
+            <div class="flex flex-col items-center">
+              <img class="h-20 w-20 rounded-full object-cover mr-4" src="../assets/bg-temple.png" />
+              <span>Mélanie L</span>
+            </div>
+            <div class="flex flex-col items-center">
+              <img class="h-20 w-20 rounded-full object-cover mr-4" src="../assets/bg-temple.png" />
+              <span>Gabriel M</span>
+            </div>
+            <div class="flex flex-col items-center">
+              <img class="h-20 w-20 rounded-full object-cover mr-4" src="../assets/bg-temple.png" />
+              <span>Jerome H</span>
+            </div>
+          </div>
         </div>
 
         <span class="flex justify-center font-bold border">Discover</span>
