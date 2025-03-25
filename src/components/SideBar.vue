@@ -2,7 +2,6 @@
 
 <template>
   <div class="layout-sidebar bg-gray-700">
-    <!--<div class="bg-zinc-900 ml-16 mr-16 absolute inset-y-0 top-16 left-0 w-72"> -->
     <div class="flex flex-col justify-center items-center font-bold mt-4">
       <div>Accueil</div>
       <router-link to="about">Dashboard</router-link>
