@@ -4,10 +4,10 @@
       <img class="h-80 w-300" src="@/assets/bg-city.jpg" alt="bg-city" />
     </div>
     <div class="grid grid-cols-12 gap-4 border">
-      <div class="col-span-10 col-start-2 border">
-        <div class="flex items-center border">
+      <div class="col-span-10 col-start-2">
+        <div class="flex items-center">
           <img class="h-30 w-30 rounded-full object-cover mr-4" src="../assets/bg-temple.png" />
-          <div class="flex flex-col items-center">
+          <div class="flex flex-col">
             <span class="font-bold">Ragnar Lothbrok</span>
             <span>Developer / VueJs</span>
           </div>
@@ -61,14 +61,14 @@
         <div class="mt-16 grid grid-cols-12">
           <!-- Colonne de gauche -->
 
-          <div class="col-start-1 col-end-8 col-span-3 border">
+          <div class="col-start-1 col-end-8 col-span-3">
             <div class="flex flex-row items-center">
               <img class="h-20 w-20 rounded-full object-cover mr-4" src="../assets/bg-temple.png" />
               <div class="flex flex-col items-center">
                 <span> Harry Potter </span>
                 <span>Il y a 3 jours</span>
               </div>
-              <button class="flex space-x-1 bg-red-800">+ Follow</button>
+              <button class="flex bg-red-700">+ Follow</button>
             </div>
           </div>
           <!-- Colonne de droite-->
@@ -84,17 +84,52 @@
               <span>Members:</span>
             </div>
           </div>
+          <!-- --------------------------------------------------------------------->
 
           <div class="col-start-8 col-end-13">
-            <span class="flex font-bold gap-4"> Digital Marketing </span>
+            <span class="flex text-2xlfont-bold gap-4"> Digital Marketing </span>
             <span class="text-xl">
               Because it's about motivating the doers. Because I’m here to follow my dreams and
               inspire other people to follow their dreams, too</span
             >
             <div class="flex flex-col gap-4 mt-4">
               <span>Industry</span>
-              <span>Rating:</span>
-              <span>Members:</span>
+              <span>Rating: </span>
+              <span>Members: </span>
+            </div>
+          </div>
+          <div class="col-start-8 col-end-13">
+            <span class="flex text-2xlfont-bold gap-4"> Digital Marketing </span>
+            <span class="text-xl">
+              Because it's about motivating the doers. Because I’m here to follow my dreams and
+              inspire other people to follow their dreams, too</span
+            >
+            <div class="flex flex-col gap-4 mt-4">
+              <span>Industry</span>
+              <span>Rating: </span>
+              <span>Members: </span>
+            </div>
+          </div>
+          <!-- --------------------------------------------------------------------->
+          <div class="col-start-8 col-end-13">
+            <span class="flex text-2xlfont-bold gap-4"> Slack Meet </span>
+            <span>11:00 AM</span>
+            <span class="text-xl"> You Have an upcming meet for Marketing Planning</span>
+            <div class="flex flex-col gap-4 mt-4">
+              <span class="bg-gray-700">Meeting ID: 785-825-874</span>
+              <span>Rating: </span>
+              <span>Members: </span>
+            </div>
+          </div>
+          <!--------------------------------------------------------------------->
+          <div class="col-start-8 col-end-13">
+            <span class="flex text-2xlfont-bold gap-4"> Slack Meet </span>
+            <span>11:00 AM</span>
+            <span class="text-xl"> You Have an upcming meet for Marketing Planning</span>
+            <div class="flex flex-col gap-4 mt-4">
+              <span class="bg-gray-700">Meeting ID: 785-825-874</span>
+              <span>Rating: </span>
+              <span>Members: </span>
             </div>
           </div>
         </div>
