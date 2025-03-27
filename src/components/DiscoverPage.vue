@@ -77,7 +77,7 @@
 
           <!-- Colonne de droite-->
           <div class="col-start-8 col-end-13">
-            <span class="flex font-bold gap-4"> Digital Marketing </span>
+            <span class="flex font-bold text-2xl text-blue-500/90"> Digital Marketing </span>
             <span class="text-xl">
               A group of people who collectively are responsible for all of the work necessary to
               produce working, validated assets.</span
@@ -92,7 +92,7 @@
           <!-- --------------------------------------------------------------------->
 
           <div class="col-start-8 col-end-13">
-            <span class="flex text-2xlfont-bold gap-4"> Digital Marketing </span>
+            <span class="flex font-bold text-2xl text-blue-500/90"> Digital Marketing </span>
             <span class="text-xl">
               Because it's about motivating the doers. Because I’m here to follow my dreams and
               inspire other people to follow their dreams, too</span
@@ -106,7 +106,7 @@
           </div>
           <!-- --------------------------------------------------------------------->
           <div class="col-start-8 col-end-13">
-            <span class="flex text-2xlfont-bold gap-4"> Digital Marketing </span>
+            <span class="flex font-bold text-2xl text-blue-500/90"> Digital Marketing </span>
             <span class="text-xl">
               Because it's about motivating the doers. Because I’m here to follow my dreams and
               inspire other people to follow their dreams, too</span
@@ -120,25 +120,31 @@
           </div>
           <!-- --------------------------------------------------------------------->
           <div class="col-start-8 col-end-13">
-            <span class="flex text-2xlfont-bold gap-4"> Slack Meet </span>
-            <span>11:00 AM</span>
+            <div class="flex flex-row items-center">
+              <img class="h-15 w-15 mr-4" src="../assets/logo-slack.png" />
+              <div class="flex flex-col">
+                <span class="font-bold text-2xl text-blue-500/90"> Slack Meet </span>
+                <span>11:00 AM</span>
+              </div>
+            </div>
             <span class="text-xl"> You Have an upcming meet for Marketing Planning</span>
             <div class="flex flex-col gap-4 mt-4">
-              <span class="bg-gray-700">Meeting ID: 785-825-874</span>
-              <span>Rating: </span>
-              <span>Members: </span>
+              <span class="bg-gray-700/20 w-max">Meeting ID: 785-825-874</span>
             </div>
             <div class="border-b border-gray-200 my-4"></div>
           </div>
           <!--------------------------------------------------------------------->
           <div class="col-start-8 col-end-13">
-            <span class="flex text-2xlfont-bold gap-4"> Slack Meet </span>
-            <span>11:00 AM</span>
+            <div class="flex flex-row items-center">
+              <img class="h-15 w-15 mr-4" src="../assets/logo-google-meet.png" />
+              <div class="flex flex-col">
+                <span class="flex font-bold text-2xl text-blue-500/90"> Google Meet </span>
+                <span> 11:00 AM</span>
+              </div>
+            </div>
             <span class="text-xl"> You Have an upcming meet for Marketing Planning</span>
             <div class="flex flex-col gap-4 mt-4">
-              <span class="bg-gray-700">Meeting ID: 785-825-874</span>
-              <span>Rating: </span>
-              <span>Members: </span>
+              <span class="bg-gray-700/20 w-max">Meeting ID: 785-825-874</span>
             </div>
           </div>
         </div>
