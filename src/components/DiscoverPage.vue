@@ -64,13 +64,17 @@
           <div class="col-start-1 col-end-8 col-span-3">
             <div class="flex flex-row items-center">
               <img class="h-20 w-20 rounded-full object-cover mr-4" src="../assets/bg-temple.png" />
-              <div class="flex flex-col items-center">
+              <div class="flex flex-col">
                 <span> Harry Potter </span>
                 <span>Il y a 3 jours</span>
               </div>
-              <button class="flex bg-red-700">+ Follow</button>
+              <button class="bg-sky-500 hover:bg-sky-300 p-1 rounded text-white ml-60">
+                + Follow
+              </button>
             </div>
+            <div class="border-b border-gray-200 my-4 mr-6"></div>
           </div>
+
           <!-- Colonne de droite-->
           <div class="col-start-8 col-end-13">
             <span class="flex font-bold gap-4"> Digital Marketing </span>
@@ -83,6 +87,7 @@
               <span>Rating:</span>
               <span>Members:</span>
             </div>
+            <div class="border-b border-gray-200 my-4"></div>
           </div>
           <!-- --------------------------------------------------------------------->
 
@@ -97,7 +102,9 @@
               <span>Rating: </span>
               <span>Members: </span>
             </div>
+            <div class="border-b border-gray-200 my-4"></div>
           </div>
+          <!-- --------------------------------------------------------------------->
           <div class="col-start-8 col-end-13">
             <span class="flex text-2xlfont-bold gap-4"> Digital Marketing </span>
             <span class="text-xl">
@@ -109,6 +116,7 @@
               <span>Rating: </span>
               <span>Members: </span>
             </div>
+            <div class="border-b border-gray-200 my-4"></div>
           </div>
           <!-- --------------------------------------------------------------------->
           <div class="col-start-8 col-end-13">
@@ -120,6 +128,7 @@
               <span>Rating: </span>
               <span>Members: </span>
             </div>
+            <div class="border-b border-gray-200 my-4"></div>
           </div>
           <!--------------------------------------------------------------------->
           <div class="col-start-8 col-end-13">
