@@ -12,7 +12,6 @@
             <span>Developer / VueJs</span>
           </div>
         </div>
-
         <div class="flex flex-nowrap p-8 items-center overflow-x-scroll">
           <div class="flex flex-col items-center">
             <img class="h-20 w-20 mr-4" src="../assets/logo-add.png" />
@@ -58,18 +57,46 @@
             </div>
           </div>
         </div>
-        <!-- 2 eme Partie -->
+        <!-- 2 ème Partie -->
         <div class="mt-16 grid grid-cols-12">
+          <!-- Colonne de gauche -->
+
           <div class="col-start-1 col-end-8 col-span-3 border">
-            <div clas="flex flex-col items-center">
-              <span> Harry Potter </span>
-              <span>Il y a 3 jours</span>
+            <div class="flex flex-row items-center">
+              <img class="h-20 w-20 rounded-full object-cover mr-4" src="../assets/bg-temple.png" />
+              <div class="flex flex-col items-center">
+                <span> Harry Potter </span>
+                <span>Il y a 3 jours</span>
+              </div>
+              <button class="flex space-x-1 bg-red-800">+ Follow</button>
+            </div>
+          </div>
+          <!-- Colonne de droite-->
+          <div class="col-start-8 col-end-13">
+            <span class="flex font-bold gap-4"> Digital Marketing </span>
+            <span class="text-xl">
+              A group of people who collectively are responsible for all of the work necessary to
+              produce working, validated assets.</span
+            >
+            <div class="flex flex-col gap-4 mt-4 mb-4">
+              <span>Industry</span>
+              <span>Rating:</span>
+              <span>Members:</span>
             </div>
           </div>
 
-          <span class="flex col-start-8 col-end-13 justify-center font-bold border">
-            Digital Marketing
-          </span>
+          <div class="col-start-8 col-end-13">
+            <span class="flex font-bold gap-4"> Digital Marketing </span>
+            <span class="text-xl">
+              Because it's about motivating the doers. Because I’m here to follow my dreams and
+              inspire other people to follow their dreams, too</span
+            >
+            <div class="flex flex-col gap-4 mt-4">
+              <span>Industry</span>
+              <span>Rating:</span>
+              <span>Members:</span>
+            </div>
+          </div>
         </div>
 
         <span class="flex justify-center font-bold">Le reste</span>
