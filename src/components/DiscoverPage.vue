@@ -68,15 +68,65 @@
                 <span> Harry Potter </span>
                 <span>Il y a 3 jours</span>
               </div>
-              <button class="bg-sky-500 hover:bg-sky-300 p-1 rounded text-white ml-60">
+              <button class="bg-sky-500 hover:bg-sky-300 p-2 rounded text-white ml-60">
                 + Follow
               </button>
             </div>
             <div class="border-b border-gray-200 my-4 mr-6"></div>
+            <span
+              >Personal profiles are the perfect way for you to grab their attention and persuade
+              recruiters to continue reading your CV because you’re telling them from the off
+              exactly why they should hire you.</span
+            >
+            <img class="rounded my-4 w-138" src="../assets/bg-temple.png" />
+            <div class="border-b border-gray-200 my-4 mr-6"></div>
+
+            <div class="flex flex-row items-center mb-4">
+              <img
+                class="h-15 w-15 rounded-full object-cover mr-4"
+                src="../assets/bg-temple.png"
+                alt=""
+              />
+              <div class="flex flex-col">
+                <span class="font-bold text-2xl mb-2">Micheal Lewis</span>
+                <span
+                  >I always felt like I could do anything. That’s the main thing people are
+                  controlled by! Thoughts- their perception of themselves!</span
+                >
+              </div>
+            </div>
+            <div class="flex flex-row items-center mb-4">
+              <img
+                class="h-15 w-15 rounded-full object-cover mr-4"
+                src="../assets/bg-temple.png"
+                alt=""
+              />
+              <div class="flex flex-col">
+                <span class="font-bold text-2xl mb-2">Micheal Lewis</span>
+                <span
+                  >I always felt like I could do anything. That’s the main thing people are
+                  controlled by! Thoughts- their perception of themselves!</span
+                >
+              </div>
+            </div>
+            <div class="flex flex-row items-center">
+              <img
+                class="h-15 w-15 rounded-full object-cover mr-4"
+                src="../assets/bg-temple.png"
+                alt=""
+              />
+              <div class="flex flex-col">
+                <span class="font-bold text-2xl mb-2">Micheal Lewis</span>
+                <span
+                  >I always felt like I could do anything. That’s the main thing people are
+                  controlled by! Thoughts- their perception of themselves!</span
+                >
+              </div>
+            </div>
           </div>
 
           <!-- Colonne de droite-->
-          <div class="col-start-8 col-end-13">
+          <div class="col-start-9 col-end-13">
             <span class="flex font-bold text-2xl text-blue-500/90"> Digital Marketing </span>
             <span class="text-xl">
               A group of people who collectively are responsible for all of the work necessary to
@@ -88,63 +138,64 @@
               <span>Members:</span>
             </div>
             <div class="border-b border-gray-200 my-4"></div>
-          </div>
-          <!-- --------------------------------------------------------------------->
 
-          <div class="col-start-8 col-end-13">
-            <span class="flex font-bold text-2xl text-blue-500/90"> Digital Marketing </span>
-            <span class="text-xl">
-              Because it's about motivating the doers. Because I’m here to follow my dreams and
-              inspire other people to follow their dreams, too</span
-            >
-            <div class="flex flex-col gap-4 mt-4">
-              <span>Industry</span>
-              <span>Rating: </span>
-              <span>Members: </span>
-            </div>
-            <div class="border-b border-gray-200 my-4"></div>
-          </div>
-          <!-- --------------------------------------------------------------------->
-          <div class="col-start-8 col-end-13">
-            <span class="flex font-bold text-2xl text-blue-500/90"> Digital Marketing </span>
-            <span class="text-xl">
-              Because it's about motivating the doers. Because I’m here to follow my dreams and
-              inspire other people to follow their dreams, too</span
-            >
-            <div class="flex flex-col gap-4 mt-4">
-              <span>Industry</span>
-              <span>Rating: </span>
-              <span>Members: </span>
-            </div>
-            <div class="border-b border-gray-200 my-4"></div>
-          </div>
-          <!-- --------------------------------------------------------------------->
-          <div class="col-start-8 col-end-13">
-            <div class="flex flex-row items-center">
-              <img class="h-15 w-15 mr-4" src="../assets/logo-slack.png" />
-              <div class="flex flex-col">
-                <span class="font-bold text-2xl text-blue-500/90"> Slack Meet </span>
-                <span>11:00 AM</span>
+            <!-- --------------------------------------------------------------------->
+
+            <div class="col-start-8 col-end-13">
+              <span class="flex font-bold text-2xl text-blue-500/90"> Digital Marketing </span>
+              <span class="text-xl">
+                Because it's about motivating the doers. Because I’m here to follow my dreams and
+                inspire other people to follow their dreams, too</span
+              >
+              <div class="flex flex-col gap-4 mt-4">
+                <span>Industry</span>
+                <span>Rating: </span>
+                <span>Members: </span>
               </div>
+              <div class="border-b border-gray-200 my-4"></div>
             </div>
-            <span class="text-xl"> You Have an upcming meet for Marketing Planning</span>
-            <div class="flex flex-col gap-4 mt-4">
-              <span class="bg-gray-700/20 w-max">Meeting ID: 785-825-874</span>
-            </div>
-            <div class="border-b border-gray-200 my-4"></div>
-          </div>
-          <!--------------------------------------------------------------------->
-          <div class="col-start-8 col-end-13">
-            <div class="flex flex-row items-center">
-              <img class="h-15 w-15 mr-4" src="../assets/logo-google-meet.png" />
-              <div class="flex flex-col">
-                <span class="flex font-bold text-2xl text-blue-500/90"> Google Meet </span>
-                <span> 11:00 AM</span>
+            <!-- --------------------------------------------------------------------->
+            <div class="col-start-8 col-end-13">
+              <span class="flex font-bold text-2xl text-blue-500/90"> Digital Marketing </span>
+              <span class="text-xl">
+                Because it's about motivating the doers. Because I’m here to follow my dreams and
+                inspire other people to follow their dreams, too</span
+              >
+              <div class="flex flex-col gap-4 mt-4">
+                <span>Industry</span>
+                <span>Rating: </span>
+                <span>Members: </span>
               </div>
+              <div class="border-b border-gray-200 my-4"></div>
             </div>
-            <span class="text-xl"> You Have an upcming meet for Marketing Planning</span>
-            <div class="flex flex-col gap-4 mt-4">
-              <span class="bg-gray-700/20 w-max">Meeting ID: 785-825-874</span>
+            <!-- --------------------------------------------------------------------->
+            <div class="col-start-8 col-end-13">
+              <div class="flex flex-row items-center">
+                <img class="h-15 w-15 mr-4" src="../assets/logo-slack.png" />
+                <div class="flex flex-col">
+                  <span class="font-bold text-2xl text-blue-500/90"> Slack Meet </span>
+                  <span class="font-bold">11:00 AM</span>
+                </div>
+              </div>
+              <span class="text-xl"> You Have an upcming meet for Marketing Planning</span>
+              <div class="flex flex-col gap-4 mt-4">
+                <span class="bg-gray-700/20 w-max">Meeting ID: 785-825-874</span>
+              </div>
+              <div class="border-b border-gray-200 my-4"></div>
+            </div>
+            <!--------------------------------------------------------------------->
+            <div class="col-start-8 col-end-13">
+              <div class="flex flex-row items-center">
+                <img class="h-15 w-15 mr-4" src="../assets/logo-google-meet.png" />
+                <div class="flex flex-col">
+                  <span class="flex font-bold text-2xl text-blue-500/90">Google Meet</span>
+                  <span class="font-bold">11:00 AM</span>
+                </div>
+              </div>
+              <span class="text-xl">You Have an upcming meet for Marketing Planning</span>
+              <div class="flex flex-col gap-4 mt-4">
+                <span class="bg-gray-700/20 w-max">Meeting ID: 785-825-874</span>
+              </div>
             </div>
           </div>
         </div>
