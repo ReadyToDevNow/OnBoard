@@ -102,26 +102,28 @@
                 alt=""
               />
               <div class="flex flex-col">
-                <span class="font-bold text-2xl mb-2">Micheal Lewis</span>
+                <span class="font-bold text-2xl mb-2">Jessica Stones</span>
                 <span
-                  >I always felt like I could do anything. That’s the main thing people are
-                  controlled by! Thoughts- their perception of themselves!</span
+                  >Society has put up so many boundaries, so many limitations on what’s right and
+                  wrong that it’s almost impossible to get a pure thought out. It’s like a little
+                  kid, a little boy.</span
                 >
               </div>
             </div>
-            <div class="flex flex-row items-center">
+            <div class="flex flex-row items-center mb-4">
               <img
                 class="h-15 w-15 rounded-full object-cover mr-4"
                 src="../assets/bg-temple.png"
                 alt=""
               />
-              <div class="flex flex-col">
-                <span class="font-bold text-2xl mb-2">Micheal Lewis</span>
-                <span
-                  >I always felt like I could do anything. That’s the main thing people are
-                  controlled by! Thoughts- their perception of themselves!</span
-                >
-              </div>
+              <textarea
+                class="border-b border-gray-300 border-t-0 border-l-0 border-r-0"
+                id="post"
+                name="post"
+                rows="5"
+                cols="300"
+                placeholder="Write your comment"
+              ></textarea>
             </div>
           </div>
 
