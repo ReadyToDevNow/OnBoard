@@ -129,7 +129,7 @@
 
           <!-- Colonne de droite-->
           <div class="col-start-9 col-end-13">
-            <span class="flex font-bold text-2xl text-blue-500/90"> Digital Marketing </span>
+            <span class="flex font-bold text-2xl text-blue-500/90 mb-6"> Digital Marketing </span>
             <span class="text-xl">
               A group of people who collectively are responsible for all of the work necessary to
               produce working, validated assets.</span
@@ -144,7 +144,7 @@
             <!-- --------------------------------------------------------------------->
 
             <div class="col-start-8 col-end-13">
-              <span class="flex font-bold text-2xl text-blue-500/90"> Digital Marketing </span>
+              <span class="flex font-bold text-2xl text-blue-500/90 mb-6"> Design </span>
               <span class="text-xl">
                 Because it's about motivating the doers. Because I’m here to follow my dreams and
                 inspire other people to follow their dreams, too</span
@@ -157,22 +157,10 @@
               <div class="border-b border-gray-200 my-4"></div>
             </div>
             <!-- --------------------------------------------------------------------->
-            <div class="col-start-8 col-end-13">
-              <span class="flex font-bold text-2xl text-blue-500/90"> Digital Marketing </span>
-              <span class="text-xl">
-                Because it's about motivating the doers. Because I’m here to follow my dreams and
-                inspire other people to follow their dreams, too</span
-              >
-              <div class="flex flex-col gap-4 mt-4">
-                <span>Industry</span>
-                <span>Rating: </span>
-                <span>Members: </span>
-              </div>
-              <div class="border-b border-gray-200 my-4"></div>
-            </div>
+
             <!-- --------------------------------------------------------------------->
             <div class="col-start-8 col-end-13">
-              <div class="flex flex-row items-center">
+              <div class="flex flex-row items-center mb-4">
                 <img class="h-15 w-15 mr-4" src="../assets/logo-slack.png" />
                 <div class="flex flex-col">
                   <span class="font-bold text-2xl text-blue-500/90"> Slack Meet </span>
@@ -186,10 +174,10 @@
               <div class="border-b border-gray-200 my-4"></div>
             </div>
             <!--------------------------------------------------------------------->
-            <div class="col-start-8 col-end-13">
+            <div class="col-start-8 col-end-13 mb-40">
               <div class="flex flex-row items-center">
                 <img class="h-15 w-15 mr-4" src="../assets/logo-google-meet.png" />
-                <div class="flex flex-col">
+                <div class="flex flex-col mb-4">
                   <span class="flex font-bold text-2xl text-blue-500/90">Google Meet</span>
                   <span class="font-bold">11:00 AM</span>
                 </div>
@@ -201,36 +189,6 @@
             </div>
           </div>
         </div>
-
-        <span class="flex justify-center font-bold">Le reste</span>
-        <span class="flex justify-center font-bold">Le reste</span
-        ><span class="flex justify-center font-bold">Le reste</span
-        ><span class="flex justify-center font-bold">Le reste</span
-        ><span class="flex justify-center font-bold">Le reste</span
-        ><span class="flex justify-center font-bold">Le reste</span
-        ><span class="flex justify-center font-bold">Le reste</span
-        ><span class="flex justify-center font-bold">Le reste</span
-        ><span class="flex justify-center font-bold">Le reste</span
-        ><span class="flex justify-center font-bold">Le reste</span
-        ><span class="flex justify-center font-bold">Le reste</span
-        ><span class="flex justify-center font-bold">Le reste</span
-        ><span class="flex justify-center font-bold">Le reste</span
-        ><span class="flex justify-center font-bold">Le reste</span
-        ><span class="flex justify-center font-bold">Le reste</span
-        ><span class="flex justify-center font-bold">Le reste</span
-        ><span class="flex justify-center font-bold">Le reste</span
-        ><span class="flex justify-center font-bold">Le reste</span
-        ><span class="flex justify-center font-bold">Le reste</span
-        ><span class="flex justify-center font-bold">Le reste</span
-        ><span class="flex justify-center font-bold">Le reste</span
-        ><span class="flex justify-center font-bold">Le reste</span
-        ><span class="flex justify-center font-bold">Le reste</span
-        ><span class="flex justify-center font-bold">Le reste</span
-        ><span class="flex justify-center font-bold">Le reste</span
-        ><span class="flex justify-center font-bold">Le reste</span
-        ><span class="flex justify-center font-bold">Le reste</span
-        ><span class="flex justify-center font-bold">Le reste</span
-        ><span class="flex justify-center font-bold">Le reste</span>
       </div>
     </div>
   </div>
