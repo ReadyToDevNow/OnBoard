@@ -172,6 +172,11 @@
                 <span class="bg-gray-700/20 w-max">Meeting ID: 785-825-874</span>
               </div>
               <div class="border-b border-gray-200 my-4"></div>
+              <button
+                class="bg-black rounded-3xl btn-transform focus:outline-offset-2 focus:outline-dark shadow shadow-black w-18 p-1 mb-4 text-white"
+              >
+                JOIN
+              </button>
             </div>
             <!--------------------------------------------------------------------->
             <div class="col-start-8 col-end-13 mb-40">
@@ -186,6 +191,12 @@
               <div class="flex flex-col gap-4 mt-4">
                 <span class="bg-gray-700/20 w-max">Meeting ID: 785-825-874</span>
               </div>
+              <div class="border-b border-gray-200 my-4"></div>
+              <button
+                class="bg-black rounded-3xl btn-transform focus:outline-offset-2 focus:outline-dark shadow shadow-black w-18 p-1 text-white"
+              >
+                JOIN
+              </button>
             </div>
           </div>
         </div>
@@ -196,4 +207,15 @@
 
 <script setup></script>
 
-<style></style>
+<style>
+/*bg-blue-500 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500*/
+.btn-transform {
+  transition: ease-in-out;
+  transition-delay: 150;
+  transition-duration: 300ms;
+}
+.btn-transform:hover {
+  transform: translateY(-0.25rem) scale(1.1);
+  background-color: rgba(1, 13, 24, 0.507);
+}
+</style>
