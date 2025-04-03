@@ -1,21 +1,18 @@
 <template>
   <div class="creative-one">
     <SideBar />
-    <HeadBar />
-    <CreativeOne />
+    <AnalyticsPage />
   </div>
 </template>
 
 <script>
 import SideBar from '@/components/SideBar.vue'
-import HeadBar from '@/components/HeadBar.vue'
-import CreativeOne from '@/components/CreativeOne.vue'
+import AnalyticsPage from '@/components/AnalyticsPage.vue'
 
 export default {
   components: {
     SideBar,
-    HeadBar,
-    CreativeOne,
+    AnalyticsPage,
   },
 }
 </script>

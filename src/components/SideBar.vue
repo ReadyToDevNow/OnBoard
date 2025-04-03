@@ -16,11 +16,11 @@
 .layout-sidebar {
   position: fixed;
   width: 16rem;
-  height: calc(100vh - 8rem);
+  height: calc(113vh - 8rem);
   z-index: 999;
   overflow-y: auto;
   user-select: none;
-  top: 6rem;
+  top: 1rem;
   left: 2rem;
 }
 </style>
