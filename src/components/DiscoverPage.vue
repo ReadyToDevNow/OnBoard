@@ -61,17 +61,19 @@
         <div class="mt-16 grid grid-cols-12">
           <!-- Colonne de gauche -->
 
-          <div class="col-start-1 col-end-8 col-span-3">
+          <div class="col-start-1 col-end-8">
             <div class="flex flex-row items-center">
               <img class="h-20 w-20 rounded-full object-cover mr-4" src="../assets/bg-temple.png" />
+
               <div class="flex flex-col">
-                <span> Harry Potter </span>
+                <span>Harry Potter</span>
                 <span>Il y a 3 jours</span>
               </div>
-              <button class="bg-sky-500 hover:bg-sky-300 p-2 rounded text-white ml-60">
+              <button class="ml-70 bg-sky-500 hover:bg-sky-300 p-2 rounded text-white">
                 + Follow
               </button>
             </div>
+
             <div class="border-b border-gray-200 my-4 mr-6"></div>
             <span
               >Personal profiles are the perfect way for you to grab their attention and persuade
@@ -135,7 +137,10 @@
               produce working, validated assets.</span
             >
             <div class="flex flex-col gap-4 mt-4 mb-4">
-              <span>Industry</span>
+              <div class="flex items-center justify-between">
+                <span>Industry</span>
+                <span> MARKETING TEAM</span>
+              </div>
               <span>Rating:</span>
               <span>Members:</span>
             </div>
@@ -150,7 +155,10 @@
                 inspire other people to follow their dreams, too</span
               >
               <div class="flex flex-col gap-4 mt-4">
-                <span>Industry</span>
+                <div class="flex justify-between">
+                  <span>Industry</span>
+                  <span> DESIGN TEAM</span>
+                </div>
                 <span>Rating: </span>
                 <span>Members: </span>
               </div>
