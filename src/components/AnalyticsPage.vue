@@ -5,28 +5,46 @@
         <div class="flex flex-col">
           <span>Sales</span>
           <span class="font-bold">$270.240</span>
-          <span> 45% since the last month </span>
+          <div>
+            <span class="text-green-500"> +45% </span>
+            <span> since the last month</span>
+          </div>
         </div>
-        <span class="">2 June - 6 June</span>
+        <span>2 June - 3 June</span>
       </div>
       <div class="card">
-        <span>Customers</span>
-        <span>3.200</span>
-        <span>+ 12% since last month</span>
+        <div class="flex flex-col">
+          <span>Customers</span>
+          <span class="font-bold">3.200</span>
+          <div>
+            <span class="text-green-500">+ 12% since</span>
+            <span> last month</span>
+          </div>
+        </div>
+        <span> 2 June - 3 June</span>
       </div>
+
       <div class="card">
-        <span>Avg. Revenue</span>
+        <div class="flex flex-col">
+          <span>Avg. Revenue</span>
+          <span class="font-bold">$1.200</span>
+          <div>
+            <span class="text-green-500">+ $121 </span>
+            <span>since last month</span>
+          </div>
+        </div>
+        <span>2 June - 3 June </span>
       </div>
     </div>
     <div class="grid grid-cols-6 gap-4 mb-4">
-      <div class="col-span-2 border">Card 1</div>
-      <div class="col-span-4 border">Card 2</div>
+      <div class="col-span-2 card">Card 1</div>
+      <div class="col-span-4 card">Card 2</div>
     </div>
     <div class="grid grid-cols-6 gap-4 mb-4">
-      <div class="col-span-4 border">Card 1</div>
-      <div class="col-span-2 border">Card 2</div>
+      <div class="col-span-4 card">Card 1</div>
+      <div class="col-span-2 card">Card 2</div>
     </div>
-    <div class="border">Top SellingProducts</div>
+    <div class="card">Top SellingProducts</div>
   </div>
 </template>
 
