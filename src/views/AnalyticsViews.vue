@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="app">
     <SideBar />
     <AnalyticsPage />
   </div>
@@ -17,4 +17,9 @@ export default {
 }
 </script>
 
-<style></style>
+<style scoped>
+#app {
+  min-height: 100vh;
+  background-color: rgba(128, 128, 128, 0.203);
+}
+</style>

@@ -52,10 +52,11 @@
 
 <style>
 .card {
-  border: 1px solid #000000;
+  border: 1px solid white;
   border-radius: 0.6rem;
   display: flex;
   justify-content: space-between;
   padding: 1rem;
+  background-color: white;
 }
 </style>
