@@ -58,5 +58,8 @@
   justify-content: space-between;
   padding: 1rem;
   background-color: white;
+  box-shadow:
+    0 10px 5px -5px rgba(107, 114, 128, 0.3),
+    0 5px 0px -5px rgba(107, 114, 128, 0.12);
 }
 </style>
