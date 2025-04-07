@@ -1,5 +1,5 @@
 <template>
-  <div class="creative-one">
+  <div>
     <SideBar />
     <AnalyticsPage />
   </div>

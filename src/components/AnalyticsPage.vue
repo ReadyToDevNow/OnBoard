@@ -1,5 +1,5 @@
 <template>
-  <div class="left-78 top-8 right-8 absolute z-49">
+  <div class="left-78 top-8 right-8 absolute">
     <div class="grid grid-cols-3 gap-4 mb-4">
       <div class="card">
         <div class="flex flex-col">
@@ -17,7 +17,7 @@
           <span>Customers</span>
           <span class="font-bold">3.200</span>
           <div>
-            <span class="text-green-500">+ 12% since</span>
+            <span class="text-green-500">+12% since</span>
             <span> last month</span>
           </div>
         </div>
@@ -29,7 +29,7 @@
           <span>Avg. Revenue</span>
           <span class="font-bold">$1.200</span>
           <div>
-            <span class="text-green-500">+ $121 </span>
+            <span class="text-green-500">+$121 </span>
             <span>since last month</span>
           </div>
         </div>
