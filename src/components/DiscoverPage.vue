@@ -69,7 +69,9 @@
                 <span>Harry Potter</span>
                 <span>Il y a 3 jours</span>
               </div>
-              <button class="bg-sky-500 hover:bg-sky-300 p-2 rounded text-white">+ Follow</button>
+              <div class="col-start-5">
+                <button class="bg-sky-500 hover:bg-sky-300 p-2 rounded text-white">+ Follow</button>
+              </div>
             </div>
 
             <div class="border-b border-gray-200 my-4 mr-6"></div>

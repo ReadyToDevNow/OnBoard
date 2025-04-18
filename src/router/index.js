@@ -38,6 +38,16 @@ const router = createRouter({
       name: 'smartHome',
       component: () => import('../views/SmartHomeViews.vue'),
     },
+    {
+      path: '/starterPack',
+      name: 'starterPack',
+      component: () => import('../views/StarterViews.vue'),
+    },
+    {
+      path: '/HomePage',
+      name: 'HomePage',
+      component: () => import('../views/HomeViews.vue'),
+    },
   ],
 })
 

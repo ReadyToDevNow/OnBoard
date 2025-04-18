@@ -9,6 +9,8 @@
       <router-link to="discover">Discover</router-link>
       <router-link to="sales">Sales</router-link>
       <router-link to="SmartHome">Smart Home</router-link>
+      <router-link to="StarterPack">StarterPack</router-link>
+      <router-link to="HomePage">HomePage</router-link>
     </div>
   </div>
 </template>
@@ -21,6 +23,6 @@
   overflow-y: auto;
   user-select: none;
   top: 1rem;
-  left: 2rem;
+  left: 1rem;
 }
 </style>

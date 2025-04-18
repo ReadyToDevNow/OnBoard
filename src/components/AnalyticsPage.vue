@@ -12,6 +12,7 @@
         </div>
         <span>2 June - 3 June</span>
       </div>
+
       <div class="card">
         <div class="flex flex-col">
           <span>Customers</span>
@@ -63,3 +64,5 @@
     0 5px 0px -5px rgba(107, 114, 128, 0.12);
 }
 </style>
+
+<div></div>

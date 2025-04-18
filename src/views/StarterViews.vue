@@ -1,17 +1,15 @@
 <template>
   <div>
-    <SalesPage />
+    <StarterPack />
   </div>
 </template>
 
 <script>
-import SalesPage from '@/components/SalesPage.vue'
+import StarterPack from '@/components/StarterPack.vue'
 
 export default {
   components: {
-    SalesPage,
+    StarterPack,
   },
 }
 </script>
-
-<style></style>
