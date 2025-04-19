@@ -30,7 +30,7 @@
           alt="item.name"
           class="w-full md:w-2/3 h-48 object-cover"
         />
-        <div class="p-4 flex flex-col justify-between">
+        <div class="p-4 w-full flex flex-col justify-between">
           <div>
             <h3 class="text-xl font-semibold">{{ item.name }}</h3>
             <p class="text-sm text-gray-600 mt-1">{{ item.description }}</p>
@@ -43,7 +43,7 @@
     </main>
 
     <!-- Footer -->
-    <footer class="text-center text-sm text-gray-500 mt-12 py-6">
+    <footer class="flex text-center text-sm text-gray-500 mt-12 py-6">
       © 2025 PixelPlace. Tous droits réservés.
     </footer>
   </div>
