@@ -43,8 +43,9 @@
     </main>
 
     <!-- Footer -->
-    <footer class="flex text-center text-sm text-gray-500 mt-12 py-6">
-      © 2025 PixelPlace. Tous droits réservés.
+    <footer class="flex flex-col text-center justify-center text-sm text-gray-500 mt-12 py-6">
+      <span>Made with heart </span>
+      <span> © 2025 PackIt. Tous droits réservés.</span>
     </footer>
   </div>
 </template>
